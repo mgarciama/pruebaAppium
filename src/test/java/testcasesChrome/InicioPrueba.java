@@ -1,4 +1,4 @@
-package testcases;
+package testcasesChrome;
 
 
 import java.net.MalformedURLException;

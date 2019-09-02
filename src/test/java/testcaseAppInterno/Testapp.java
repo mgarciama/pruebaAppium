@@ -1,4 +1,4 @@
-package testcases;
+package testcaseAppInterno;
 
 
 import java.net.MalformedURLException;

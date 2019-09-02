@@ -14,7 +14,7 @@ import io.appium.java_client.remote.AndroidMobileCapabilityType;
 import io.appium.java_client.remote.MobileCapabilityType;
 
 public class Testcase {
-	
+
 	public static AndroidDriver<MobileElement> driver;
 	
 	public static void main(String[] args) throws MalformedURLException, InterruptedException {
@@ -26,7 +26,11 @@ public class Testcase {
 		DesiredCapabilities cap = new DesiredCapabilities();
 	
 		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "Android");
+		
+		//este codigo sirve para instalar la app con .apk
 		//cap.setCapability(MobileCapabilityType.APP, app.getAbsolutePath());
+		
+		//estos codigos sirve para entrar en el
 		cap.setCapability(AndroidMobileCapabilityType.APP_PACKAGE, "io.selendroid.testapp");
 		cap.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY, ".HomeScreenActivity");
 		driver = new AndroidDriver<MobileElement>(new URL("http://127.0.0.1:4723/wd/hub"), cap);

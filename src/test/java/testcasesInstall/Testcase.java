@@ -25,7 +25,7 @@ public class Testcase {
 		//browser + Devices
 		DesiredCapabilities cap = new DesiredCapabilities();
 	
-		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "Android");
+		//cap.setCapability(MobileCapabilityType.DEVICE_NAME, "Android");
 		
 		//este codigo sirve para instalar la app con .apk
 		//cap.setCapability(MobileCapabilityType.APP, app.getAbsolutePath());

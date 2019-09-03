@@ -23,9 +23,9 @@ public class Testcase {
 		File app = new File (projectPath + "\\app\\selendroid-test-app-0.17.0.apk");
 		System.out.println(app);
 		//browser + Devices
-		DesiredCapabilities cap = new DesiredCapabilities();
+		//DesiredCapabilities cap = new DesiredCapabilities();
 	
-		//cap.setCapability(MobileCapabilityType.DEVICE_NAME, "Android");
+		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "Android");
 		
 		//este codigo sirve para instalar la app con .apk
 		//cap.setCapability(MobileCapabilityType.APP, app.getAbsolutePath());

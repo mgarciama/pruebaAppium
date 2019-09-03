@@ -23,7 +23,7 @@ public class Testcase {
 		File app = new File (projectPath + "\\app\\selendroid-test-app-0.17.0.apk");
 		System.out.println(app);
 		//browser + Devices
-		//DesiredCapabilities cap = new DesiredCapabilities();
+		DesiredCapabilities cap = new DesiredCapabilities();
 	
 		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "Android");
 		
